@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context="com.example.navigation.RootFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_openGreenBoxButton"
+        style="@style/root_fragment_buttons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green_box_back"
+        android:text="@string/green_box_btn"
+        app:layout_constraintBottom_toTopOf="@+id/tv_openYellowBoxButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_openYellowBoxButton"
+        style="@style/root_fragment_buttons"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_box_back"
+        android:text="@string/yellow_box_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_openGreenBoxButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

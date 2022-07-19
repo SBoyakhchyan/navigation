@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">navigation</string>
+    <string name="green_box_btn">Green box</string>
+    <string name="yellow_box_btn">Yellow box</string>
+    <string name="this_is_the_box_text">This is the box</string>
+    <string name="go_back_text">Go back</string>
+    <string name="open_secret_text">Open secret</string>
+    <string name="generate_number_text">Generate number</string>
+    <string name="close_the_whole_box">close the whole box</string>
+    <string name="close_secret">close secret</string>
+    <string name="this_is_secret_place">This is secret place</string>
+</resources>
